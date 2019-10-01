@@ -1,0 +1,19 @@
+Package: mgfparse
+Title: Parses GNPS mgf files
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chase",
+           family = "Clark",
+           role = c("aut", "cre"),
+           email = "chasec288@gmail.com")
+Description: Parses GNPS mgf files (e.g. ftp://massive.ucsd.edu/MSV000084314/peak/MGF/), can be modified for parsing other mgf.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+LazyData: true
+Imports: 
+    jsonlite,
+    data.table
+Suggests: 
+    testthat (>= 2.1.0)
+RoxygenNote: 6.1.1
